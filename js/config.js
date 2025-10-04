@@ -24,7 +24,11 @@ const SITE_CONFIG = {
 const API_SITES = {
     tt: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8',
-        name: '电影天堂资源', 
+        name: '天堂', 
+    },
+    db: {
+        api: 'https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8',
+        name: '豆瓣', 
     },
 };
 
