@@ -25,7 +25,7 @@ const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
+        detail: 'https://beiyong.dyttzyapi.com', 
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -115,8 +115,9 @@ const API_SITES = {
         name: '量子资源站'
     },
     testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '空内容测试源',
+        detail: 'https://beiyong.dyttzyapi.com',
         adult: true
     },
 };
