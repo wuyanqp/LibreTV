@@ -114,12 +114,6 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    testSource: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '空内容测试源',
-        detail: 'https://beiyong.dyttzyapi.com',
-        adult: true
-    },
 };
 
 // 定义合并方法
