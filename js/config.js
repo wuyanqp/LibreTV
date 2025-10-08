@@ -30,14 +30,6 @@ const API_SITES = {
         api: 'https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8',
         name: '豆瓣', 
     },
-    nn: {
-        api: 'https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8',
-        name: '牛牛', 
-    },
-    hy: {
-        api: 'https://www.huyaapi.com/api.php/provide/vod/from/hym3u8',
-        name: '虎牙',
-    },
     ik: {
         api: 'https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8',
         name: 'ikun',
@@ -46,10 +38,6 @@ const API_SITES = {
         api: 'https://hhzyapi.com/api.php/provide/vod/from/hhm3u8',
         name: '豪华',
     },
-    qy: {
-        api: 'https://iqiyizyapi.com/api.php/provide/vod/from/snm3u8',
-        name: '奇异',
-    },
     mt: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8',
         name: '茅台', 
@@ -57,14 +45,6 @@ const API_SITES = {
     hn: {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
         name: '红牛', 
-    },
-    js: {
-        api: 'https://jszyapi.com/api.php/provide/vod/from/jsm3u8',
-        name: '极速',
-    },
-    sn: {
-      api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8',
-      name: '索尼',
     },
     my: {
         api: 'https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8',
@@ -77,18 +57,6 @@ const API_SITES = {
     jy: {
         api: 'https://jyzyapi.com/provide/vod/from/jinyingm3u8',
         name: '金鹰', 
-    },
-    jc: {
-        api: 'http://zy.jinchancaiji.com/api.php/provide/vod/from/ikm3u8',
-        name: '金蝉',
-    },
-    yy: {
-        api: 'https://cj.yayazy.net/api.php/provide/vod/from/yym3u8',
-        name: '鸭鸭',
-    },
-    sd: {
-        api: 'https://xsd.sdzyapi.com/api.php/provide/vod/from/sdm3u8',
-        name: '闪电',
     },
     gs: {
         api: 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8',
@@ -134,13 +102,21 @@ const API_SITES = {
         api: 'http://api.ffzyapi.com/api.php/provide/vod',
         name: '非凡'
     },
-    zd: {
-        api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
-    },
     ty: {
         api: 'https://tyyszyapi.com/api.php/provide/vod',
         name: '天涯'
+    },
+    qy: {
+        api: 'https://iqiyizyapi.com/api.php/provide/vod',
+        name: '奇异',
+    },
+    js: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速',
+    },
+    jc: {
+        api: 'http://zy.jinchancaiji.com/api.php/provide/vod',
+        name: '金蝉',
     },
 };
 
