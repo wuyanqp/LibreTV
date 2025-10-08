@@ -92,7 +92,7 @@ const API_SITES = {
     },
      zd: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
+        name: '最大'
     },
     uk: {
         api: 'https://api.ukuapi88.com/api.php/provide/vod',
@@ -113,10 +113,6 @@ const API_SITES = {
     js: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速',
-    },
-    jc: {
-        api: 'http://zy.jinchancaiji.com/api.php/provide/vod',
-        name: '金蝉',
     },
 };
 
